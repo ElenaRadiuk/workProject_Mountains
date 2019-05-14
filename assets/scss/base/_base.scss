@@ -1,0 +1,32 @@
+a {
+  color: $dark-bt;
+  &:hover {
+    color: $dark-bt!important;
+    text-decoration: underline;
+  }
+}
+
+.entry-section {
+  line-height: 20px;
+}
+
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 25px;
+}
+h5 {
+  font-size: 20px;
+}
+h6 {
+  font-size: 19px;
+}
+
+

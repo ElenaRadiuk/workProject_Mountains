@@ -1,0 +1,208 @@
+/**
+ * Alignment
+ */
+.entry-content {
+    .alignnone {
+        margin: 5px 20px 20px 0;
+    }
+    .aligncenter,
+    div.aligncenter {
+        display: block;
+        margin: 5px auto 5px auto;
+    }
+    .alignright {
+        float:right;
+        margin: 5px 0 20px 20px;
+    }
+    .alignleft {
+        float: left;
+        margin: 5px 20px 20px 0;
+    }
+    a {
+        img.alignright {
+            float: right;
+            margin: 5px 0 20px 20px;
+        }
+        img.alignnone {
+            margin: 5px 20px 20px 0;
+        }
+        img.alignleft {
+            float: left;
+            margin: 5px 20px 20px 0;
+        }
+        img.aligncenter {
+            display: block;
+            margin-left: auto;
+            margin-right: auto
+        }
+    }
+}
+/* Caption style */
+.wp-caption {
+    max-width: 96%; /* Image does not overflow the content area */
+    padding: 5px 3px 10px;
+    text-align: center;
+
+    img {
+        border: 0 none;
+        height: auto;
+        margin: 0;
+        max-width: 98.5%;
+        padding: 0;
+        width: auto;
+    }
+    p.wp-caption-text {
+        font-size: $font-size-sm;
+        margin: 0;
+        padding: 0 4px 5px;
+    }
+}
+
+.post-preview {
+    font-family: $font-Sanchez-Reg;
+    position: relative;
+    &:after {
+        position: absolute;
+        content: '';
+        width: 95%;
+        max-width: 815px;
+        height: 1px;
+        background: $dark-bl-bt;
+        left: 15px;
+        bottom: -30px;
+    }
+    .entry-title {
+        font-family: $font-Teko-Reg;
+        font-size: 32px;
+        @media screen and (min-width: $break-large) {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+        a {
+          color: $dark-bt;
+        }
+    }
+    .entry-footer {
+        font-family: $font-Sanchez-It;
+        font-size: 14px;
+        .entry-footer-cat {
+            text-transform: uppercase;
+            @media screen and (max-width: $break-md) {
+                display: none;
+            }
+        }
+        .entry-footer-auth {
+            @media screen and (max-width: $break-md) {
+                display: none;
+            }
+        }
+    }
+    p {
+       font-size: $font-size-base;
+        @media screen and (max-width: $break-large) {
+            font-size: 17px;
+            line-height: 22px;
+        }
+    }
+    .read-more-bt {
+        color: $red-bt;
+    }
+
+}
+
+.img-wrapper-post {
+    img {
+        max-width: 300px;
+        height: auto;
+        border-radius: 50%;
+        border: 1px solid #707070;
+    }
+}
+
+/**
+ * Gallery caption
+ *
+ */
+.gallery-caption {
+
+}
+
+/**
+ * Sitcky post
+ */
+.sticky {
+
+}
+/**
+ * Image responsive
+ */
+.entry-content {
+    img {
+        max-width: 100%;
+    }
+}
+
+
+.entry.post {
+    padding-bottom: 60px;
+    @media screen and (min-width: $break-large) {
+        padding-bottom: 80px;
+    }
+}
+
+.plan-post {
+    .divider {
+        width: 90%;
+        height: 1px;
+        border-bottom: 1px solid #0F1E2D;
+        margin-left: 15px;
+        margin-bottom: 40px;
+    }
+
+    .plan-detail {
+        font-size: 16px;
+        font-family: $font-Sanchez-It;
+        margin-bottom: 10px;
+    }
+
+
+    .entry {
+        &.post {
+            @media screen and (max-width: $break-large) {
+                padding-bottom: 40px;
+            }
+            padding-bottom: 30px;
+        }
+        .entry-title {
+            font-family: $font-Teko-Reg;
+            @media screen and (min-width: $break-large) {
+                font-size: 50px;
+            }
+
+            a {
+                color: $dark-bt;
+            }
+
+        }
+
+        .entry-content {
+            @media screen and (max-width: $break-large) {
+                border-bottom: 1px solid #0F1E2D;;
+                padding-bottom: 25px;
+            }
+            p {
+                font-size: $font-size-base;
+                @media screen and (max-width: $break-large) {
+                    font-size: 17px;
+                    line-height: 22px;
+                }
+            }
+            .read-more-bt {
+                color: $red-bt;
+            }
+
+        }
+
+    }
+
+}

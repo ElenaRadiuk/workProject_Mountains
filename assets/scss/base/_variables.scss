@@ -1,0 +1,44 @@
+/**
+ * Put below your own bootstrap variables
+ *
+ * Bootstrap variables list: https://github.com/twbs/bootstrap-sass/blob/master/assets/stylesheets/bootstrap/_variables.scss
+ * Set your own theme: https://pikock.github.io/bootstrap-magic/app/index.html#!/editor
+ */
+
+//== Colors
+//
+$white-bt:   #FFFFFF;
+$dark-bt:    #000000;
+$gray-bt:    #707070;
+$dark-bl-bt: #0F1E2D;
+$red-bt:     #9F3636;
+
+//== Typography
+
+$font-family-sans-serif:  "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$font-family-base:        $font-family-sans-serif !default;
+
+$font-top-info: 'Im-fell-english-roman';
+$font-Sanchez-It: 'Sanchez-Italic';
+$font-Sanchez-Reg: 'Sanchez-Regular';
+$font-Sanchez-TS: 'Teko-SemiBold';
+$font-Sanchez-TB: 'Teko-Bold';
+$font-Sanchez-TM: 'Teko-Medium';
+$font-Sanchez-Lite: 'Teko-Light';
+$font-Teko-Reg: 'Teko-Regular';
+
+$font-size-base:          16px !default;
+$font-size-p:             19px !default;
+
+
+$font-size-h1:            50px !default;
+$font-size-h2:            40px !default;
+$font-size-h3:            30px !default;
+$font-size-h4:            25px !default;
+$font-size-h5:            20px !default;
+$font-size-h6:            19px !default;
+
+//breakpoint
+$break-sm: 576px;
+$break-md: 768px;
+$break-large: 992px;
